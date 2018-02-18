@@ -8,12 +8,10 @@
   <body>
       <div id="vn">
         <ul>
-          <template v-for="(pais,indice) of paises">
-          <li >
-            {{indice+1}}-{{pais}}
+
+          <li v-for="(valor,llave) in empleado">
+            {{llave}}->{{valor}}
           </li>
-          <hr>
-        </template>
 
         </ul>
       </div>
