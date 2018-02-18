@@ -7,10 +7,14 @@
   </head>
   <body>
       <div id="vn">
-
-        <template v-if="mostrar">Este es mi primer div</template>
-        <div v-else>Este es mi segundo div</div>
-      </div>
+        <div v-show="mostrar">
+          <h3>Titulo</h3>
+          <p>Parrafo</p>
+          Este es el primer parrafo
+        </div>
+        <div>
+          Este es el segundo parrafo
+        </div>
       <script type="text/javascript" src="vue.js"></script>
   </body>
 </html>
